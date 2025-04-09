@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    border: 1px solid #000;
+    padding: 15px;
+    width: 250px;
+    position: relative;
+    background-color: #eee;
+  }
+  
+  .label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .chicken .label {
+    background-color: #d88;
+  }
+  
+  .beef .label {
+    background-color: #c44;
+  }
+  
+  .sushi .label {
+    background-color: #ddc34b;
+    color: black;
+  }
